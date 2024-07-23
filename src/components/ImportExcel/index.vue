@@ -145,5 +145,7 @@ defineExpose({
 });
 </script>
 <style lang="scss" scoped>
-@import "./index.scss";
+.upload {
+  width: 80%;
+}
 </style>

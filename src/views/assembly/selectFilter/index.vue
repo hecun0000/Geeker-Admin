@@ -87,5 +87,10 @@ const filterData = [
 </script>
 
 <style scoped lang="scss">
-@import "./index.scss";
+.result {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  color: var(--el-text-color-regular);
+}
 </style>

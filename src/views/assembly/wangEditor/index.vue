@@ -34,5 +34,11 @@ const dialogVisible = ref(false);
 </script>
 
 <style scoped lang="scss">
-@import "./index.scss";
+.el-button {
+  margin-top: 20px;
+}
+:deep(.el-dialog__body) {
+  height: 700px !important;
+  overflow: auto;
+}
 </style>

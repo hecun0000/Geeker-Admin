@@ -42,5 +42,11 @@ const { BUTTONS } = useAuthButtons();
 </script>
 
 <style scoped lang="scss">
-@import "./index.scss";
+.content-box {
+  align-items: flex-start;
+  span {
+    width: 100%;
+    text-align: center;
+  }
+}
 </style>

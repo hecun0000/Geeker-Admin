@@ -6,6 +6,4 @@
 
 <script setup lang="ts" name="watermarkDirect"></script>
 
-<style scoped lang="scss">
-@import "./index.scss";
-</style>
+<style scoped lang="scss"></style>

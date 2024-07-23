@@ -50,5 +50,16 @@ const changeTreeFilter1 = (val: string[]) => {
 </script>
 
 <style scoped lang="scss">
-@import "./index.scss";
+.content-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  .descriptions-box {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+}
 </style>

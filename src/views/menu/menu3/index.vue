@@ -10,6 +10,4 @@ import { ref } from "vue";
 const value = ref<string>("");
 </script>
 
-<style scoped lang="scss">
-@import "./index.scss";
-</style>
+<style scoped lang="scss"></style>

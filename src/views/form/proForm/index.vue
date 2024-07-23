@@ -80,5 +80,8 @@ const options = ref({
 </script>
 
 <style scoped lang="scss">
-@import "./index.scss";
+.el-form {
+  width: 100%;
+  margin-top: 20px;
+}
 </style>

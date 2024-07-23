@@ -31,5 +31,12 @@ import SvgIcon from "@/components/SvgIcon/index.vue";
 </script>
 
 <style scoped lang="scss">
-@import "./index.scss";
+.icon-list {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 100px 0;
+}
 </style>

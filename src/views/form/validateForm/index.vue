@@ -119,5 +119,10 @@ const resetForm = (formEl: FormInstance | undefined) => {
 </script>
 
 <style scoped lang="scss">
-@import "./index.scss";
+.el-form {
+  width: 100%;
+  .text-center {
+    text-align: center;
+  }
+}
 </style>
